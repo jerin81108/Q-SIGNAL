@@ -15,9 +15,9 @@ print("=" * 60)
 print("  Q-SIGNAL FIREBASE CONNECTIVITY DIAGNOSTIC")
 print("=" * 60)
 
-print("\n1. Testing Firebase Admin SDK initialization...")
+print("\n1. Testing Firebase Admin SDK initialization....")
 res = init_firebase()
-print("   Init result:", res)
+print("   Init result: ", res);
 
 if not res["success"]:
     print(f"\n❌ Initialization failed: {res.get('error')}")
